@@ -1,4 +1,6 @@
-# 基于Dockerfile搭建在Linux服务器上使用clash的方案,解决docker被墙后无法更新和拉取镜像 config请从本地使用的配置文件复制过去,主要提交 external-ui: /opt/clash/ui 用来指定webui的路径
+# 在Linux服务器上使用clash的方案
+
+基于Dockerfile搭建clash+webui 解决docker被墙后无法更新和拉取镜像 config请从本地使用的配置文件复制过去,主要添加 external-ui: /opt/clash/ui 用来指定webui的路径
 
 ```config.yaml
 mode: rule
