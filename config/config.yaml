@@ -1,0 +1,7 @@
+mode: rule
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: :9097
+external-ui: /opt/clash/ui
+secret: ''
