@@ -46,7 +46,7 @@ docker run --name=clash-ui --network my_network \
 -d jios/clash-ui:1.0.1
 ```
 
-## 通过 http://127.0.0.1:57890/ui 访问ui界面
+## 通过 http://127.0.0.1:5890/ui 访问ui界面
 
 ## 代理启用
 ```
